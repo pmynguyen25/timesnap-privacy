@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TimeSnap — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #151515; }
+    a { color: #7fb3ff; }
+    th { background: #222 !important; }
+    td, th { border-color: #333 !important; }
+    code { background: #262626 !important; }
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .35rem; }
+  h2 { font-size: 1.2rem; margin: 2.4rem 0 .6rem; }
+  .meta { color: #666; font-size: .9rem; margin: 0 0 2rem; }
+  @media (prefers-color-scheme: dark) { .meta { color: #999; } }
+  .lede { font-size: 1.05rem; border-left: 3px solid #4a7fd0; padding-left: 1rem; margin: 1.5rem 0 2rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; display: block; overflow-x: auto; }
+  th, td { border: 1px solid #ddd; padding: .55rem .7rem; text-align: left; vertical-align: top; }
+  th { background: #f6f6f6; font-weight: 600; }
+  code { background: #f2f2f2; padding: .1rem .35rem; border-radius: 3px; font-size: .9em; }
+  ul { padding-left: 1.3rem; }
+  li { margin: .35rem 0; }
+  footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid #ddd; font-size: .9rem; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>TimeSnap Privacy Policy</h1>
+<p class="meta">Last updated: 5 September 2026</p>
+
+<p class="lede">
+  TimeSnap does not have servers. We do not collect, receive, transmit to ourselves, or sell any of
+  your personal information. Everything you record stays on your device, unless you personally choose
+  to back it up to your own Google Drive.
+</p>
+
+<p>
+  This policy explains what TimeSnap ("the app") stores, where it goes, and how to remove it. It
+  applies to the Android application published under the package name
+  <code>com.timesnap.tracking</code>.
+</p>
+
+<h2>1. Who is responsible</h2>
+<p>
+  TimeSnap is developed and published by <strong>MN Momently Studio</strong>. For any privacy
+  question or request, contact <strong>mnmomentlystudio@outlook.com</strong>.
+</p>
+
+<h2>2. What the app stores on your device</h2>
+<p>
+  All of the following is written to a private database inside the app's own storage area on your
+  phone. It is not readable by other apps, and it is never sent to us.
+</p>
+
+<table>
+  <tr><th>Data</th><th>Why it exists</th></tr>
+  <tr><td>Activity names and colours you create</td><td>To label and display what you are tracking.</td></tr>
+  <tr><td>Time entries: start time, end time, duration, and any note you type</td><td>The core record of how you spent your time.</td></tr>
+  <tr><td>Goals: target minutes, period, and which activity they apply to</td><td>To show progress against the goals you set.</td></tr>
+  <tr><td>App settings: day start time, week start day, notification and sync preferences</td><td>To keep the app behaving the way you configured it.</td></tr>
+  <tr><td>Your Pro entitlement status</td><td>To unlock paid features without re-checking Google Play on every launch.</td></tr>
+</table>
+
+<p>
+  Notes on time entries are free text. Please avoid typing information you would not want stored on
+  your device or copied into your Google Drive backups.
+</p>
+
+<h2>3. Google account and Google Drive</h2>
+<p>
+  Connecting Google Drive is <strong>optional</strong>. The app is fully functional without it, and
+  nothing is uploaded anywhere unless you connect an account and a backup runs.
+</p>
+<p>If you do connect Drive:</p>
+<ul>
+  <li>
+    Your <strong>Google account email address and display name</strong> are stored on your device so
+    the app can show you which account is connected. They are not transmitted to us.
+  </li>
+  <li>
+    An <strong>OAuth access token</strong> issued by Google is stored on your device so the app can
+    upload backups. It is not transmitted to us.
+  </li>
+  <li>
+    The app requests only the <code>drive.file</code> and <code>drive.appdata</code> permissions.
+    These are deliberately narrow: they let TimeSnap see and manage <em>only the files it creates
+    itself</em>. TimeSnap cannot read, list, or access any other document, photo, or file in your
+    Google Drive.
+  </li>
+  <li>
+    Backups are written as CSV files into a TimeSnap folder in <strong>your own</strong> Google
+    Drive. They contain your activity names, time entries, notes, and goals. This is your storage,
+    under your Google account — we have no access to it at any point.
+  </li>
+</ul>
+<p>
+  Once data is in your Google Drive it is also governed by
+  <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+</p>
+
+<h2>4. Purchases</h2>
+<p>
+  TimeSnap Pro is a one-time in-app purchase processed entirely by Google Play Billing. The app
+  receives only a confirmation that a purchase exists and is valid. It never sees, handles, or stores
+  your name, card number, billing address, or any other payment detail. Refunds and billing queries
+  are handled by Google Play.
+</p>
+
+<h2>5. Permissions the app requests</h2>
+<table>
+  <tr><th>Permission</th><th>Purpose</th></tr>
+  <tr><td><code>INTERNET</code></td><td>Only to upload backups to your Google Drive and to talk to Google Play Billing.</td></tr>
+  <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>To avoid attempting a sync when you are offline.</td></tr>
+  <tr><td><code>POST_NOTIFICATIONS</code></td><td>To send the tracking reminders you enable in settings. You can decline or revoke this at any time.</td></tr>
+  <tr><td><code>BILLING</code></td><td>Required by Google Play to offer the Pro purchase.</td></tr>
+</table>
+<p>
+  TimeSnap does not request access to your location, camera, microphone, contacts, calendar, call
+  logs, SMS, or the files on your device.
+</p>
+
+<h2>6. What we do not do</h2>
+<ul>
+  <li>We do not operate any server that receives your data.</li>
+  <li>We do not use analytics, telemetry, or crash-reporting services.</li>
+  <li>We do not include advertising networks or advertising identifiers.</li>
+  <li>We do not track you across apps or websites.</li>
+  <li>We do not build profiles, and we do not make automated decisions about you.</li>
+  <li>We do not sell, rent, or share your personal information with anyone. There is nothing to sell — we never receive it.</li>
+</ul>
+
+<h2>7. Retention and how to delete your data</h2>
+<p>
+  Because we never receive your data, we cannot hold it and there is nothing for us to delete on your
+  behalf. You remain in complete control:
+</p>
+<ul>
+  <li>
+    <strong>Delete individual records</strong> — remove any time entry, activity, or goal from within
+    the app at any time.
+  </li>
+  <li>
+    <strong>Delete everything on the device</strong> — uninstalling TimeSnap permanently removes its
+    database, settings, stored Google account details, and OAuth token from your phone. You can also
+    use Android Settings → Apps → TimeSnap → Storage → Clear data.
+  </li>
+  <li>
+    <strong>Delete your backups</strong> — open Google Drive and delete the TimeSnap folder and its
+    CSV files, then empty your Drive trash.
+  </li>
+  <li>
+    <strong>Revoke Drive access</strong> — visit
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, select
+    TimeSnap, and remove its access. This immediately invalidates the stored token.
+  </li>
+</ul>
+<p>
+  If you need help with any of these steps, contact <strong>mnmomentlystudio@outlook.com</strong> and we will
+  walk you through them.
+</p>
+
+<h2>8. Children</h2>
+<p>
+  TimeSnap is a general-audience productivity tool. It is not directed at children, and we do not
+  knowingly collect information from anyone — including children — because we do not collect
+  information at all.
+</p>
+
+<h2>9. Security</h2>
+<p>
+  Your records are held in the app's private storage area, which Android isolates from other
+  applications. Data in transit to Google Drive is sent over encrypted HTTPS connections. No method
+  of storage or transmission is perfectly secure, but because your information never reaches a server
+  of ours, there is no central database of TimeSnap users that could be breached.
+</p>
+
+<h2>10. Your rights</h2>
+<p>
+  Privacy laws including the Australian Privacy Principles, the GDPR, and the CCPA give you rights to
+  access, correct, export, and delete your personal information. In TimeSnap you can exercise all of
+  these directly: your data is on your device, you can view and edit it in the app, export it as CSV,
+  and delete it as described in section 7. We hold no copy, so there is no request to make of us.
+</p>
+
+<h2>11. Changes to this policy</h2>
+<p>
+  If the app's data practices change, this page will be updated and the date at the top revised.
+  Material changes will also be noted in the app's release notes on Google Play.
+</p>
+
+<h2>12. Contact</h2>
+<p>
+  Questions about this policy or about privacy in TimeSnap:
+  <strong>mnmomentlystudio@outlook.com</strong>
+</p>
+
+<footer>
+  TimeSnap · com.timesnap.tracking · Last updated 5 September 2026
+</footer>
+
+</body>
+</html>
